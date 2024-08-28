@@ -1,0 +1,5 @@
+Carlos,Talavera,Guerrero,carlos19,carlos@gmail.com,1234,Masculino
+Guapote,Rocas,Del lago,Elpiedras,elpiedras@gmail.com,1234,Masculino
+Lucas,Lopez,Espinoza,Gogogo,gogogo@gmail.com,gogogo31,Masculino
+Naruto,Uzumaki,Namikaze,NarutoElPro,naruto@konoha.com,1236,Masculino
+goku,son,qw,goku10,goku@gmail.com,123,Masculino

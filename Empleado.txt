@@ -1,0 +1,2 @@
+94394367,jose,duran,garcia,jose10,jose@gmail.com,1234,Masculino
+ 6786756432, carlos, talavera, guerrero, carlos19, carlos@gmail.com,765432322357,Masculino
