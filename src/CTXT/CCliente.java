@@ -24,7 +24,7 @@ public class CCliente {
             fw = new FileWriter(nameTxt);
             BufferedWriter buff = new BufferedWriter(fw);
             for (Cliente cli : listClien) {
-                buff.write(cli.getNombre() + "," + cli.getApellido1() + "," + cli.getApellido2() + ","
+                buff.write(cli.getRol()+","+cli.getNombre() + "," + cli.getApellido1() + "," + cli.getApellido2() + ","
                         + cli.getNombreUsuario() + "," + cli.getCorreo() + "," + cli.getPassword() + "," + cli.getSex() +"\n");
             }
             buff.close();
@@ -52,6 +52,7 @@ public class CCliente {
                 String linea = scanner.nextLine();
                 Scanner delimiter = new Scanner(linea);
                 Cliente c = new Cliente();
+                c.setRol(2);
                 delimiter.useDelimiter("\\s*,\\s*");
                 c.setNombre(String.valueOf(delimiter.next()));
                 c.setApellido1(String.valueOf(delimiter.next()));
