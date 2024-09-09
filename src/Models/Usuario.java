@@ -17,8 +17,9 @@ public abstract class Usuario {
     protected String correo;
     protected String password;
     protected Genero sex;
+    protected int rol;
 
-    public Usuario(String nombre, String Apellido1, String Apellido2, String nombreUsuario, String correo, String password, Genero sex) {
+    public Usuario(String nombre, String Apellido1, String Apellido2, String nombreUsuario, String correo, String password, Genero sex, int rol) {
         this.nombre = nombre;
         this.Apellido1 = Apellido1;
         this.Apellido2 = Apellido2;
@@ -26,6 +27,7 @@ public abstract class Usuario {
         this.correo = correo;
         this.password = password;
         this.sex = sex;
+        this.rol = rol;
     }
 
     public Usuario() {
@@ -36,6 +38,7 @@ public abstract class Usuario {
         correo = "";
         password = "";
         sex = null;
+        rol = 0;
     }
 
     public String getNombre() {
@@ -93,7 +96,13 @@ public abstract class Usuario {
     public void setSex(Genero sex) {
         this.sex = sex;
     }
-    
-    
+
+    public void setRol(int rol) {
+        this.rol = rol;
+    }
+
+    public int getRol() {
+        return rol;
+    }
 
 }

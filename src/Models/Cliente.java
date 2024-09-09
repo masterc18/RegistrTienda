@@ -13,15 +13,18 @@ public class Cliente extends Usuario {
     private String NumeroTarjeta;
     private String PinTarjeta;
 
-    public Cliente(String NumeroTarjeta, String PinTarjeta, String nombre, String Apellido1, String Apellido2, String nombreUsuario, String correo, String password, Genero sex) {
-        super(nombre, Apellido1, Apellido2, nombreUsuario, correo, password, sex);
+    public Cliente(String NumeroTarjeta, String PinTarjeta, String nombre, String Apellido1, String Apellido2, String nombreUsuario, String correo, String password, Genero sex, int rol) {
+        super(nombre, Apellido1, Apellido2, nombreUsuario, correo, password, sex, rol);
         this.NumeroTarjeta = NumeroTarjeta;
         this.PinTarjeta = PinTarjeta;
     }
 
+   
+
     public Cliente() {
         NumeroTarjeta = "";
         PinTarjeta = "";
+        rol = 1;
 
     }
 

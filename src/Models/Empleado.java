@@ -11,13 +11,16 @@ package Models;
 public class Empleado extends Usuario {
     private String id_Empleado;
 
-    public Empleado(String id_Empleado, String nombre, String Apellido1, String Apellido2, String nombreUsuario, String correo, String password, Genero sex) {
-        super(nombre, Apellido1, Apellido2, nombreUsuario, correo, password, sex);
+    public Empleado(String id_Empleado, String nombre, String Apellido1, String Apellido2, String nombreUsuario, String correo, String password, Genero sex, int rol) {
+        super(nombre, Apellido1, Apellido2, nombreUsuario, correo, password, sex, rol);
         this.id_Empleado = id_Empleado;
     }
+
+    
     
     public Empleado(){
         id_Empleado = "";
+        rol = 2;
     }
 
     public String getId_Empleado() {

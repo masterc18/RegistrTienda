@@ -171,14 +171,14 @@ public class FrmApp extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/busquedaIcon.png"))); // NOI18N
         PanelTopMenu.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 20, -1, 30));
 
-        PanelBackground.add(PanelTopMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, 840, 70));
+        PanelBackground.add(PanelTopMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, 860, 70));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 153, 255));
-        jLabel1.setText("Tienda de videojuegos hecha por un principiante");
+        jLabel1.setText("Aun en desarrollo");
         PanelBackground.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 66, 580, 660));
 
-        getContentPane().add(PanelBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(PanelBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
